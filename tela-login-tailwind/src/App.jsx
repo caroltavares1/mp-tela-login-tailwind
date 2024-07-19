@@ -4,9 +4,9 @@ import img from "./assets/background.png"
 function App() {
   return (
     <main className="w-screen h-screen bg-gradient-to-r from-[#0E0D10] to-[#121216] flex flex-row justify-center items-center">
-      <section className="sm:w-full md:w-11/12 w-[1106px] h-[654px] bg-bgcolor flex flex-row justify-between m-5 rounded-[34px] ">
-        <section className="flex flex-col items-start w-full md:w-full lg:w-1/2  justify-center gap-5 p-10">
-          <h1 className="md:text-[48px] lg:text-[48px] text-[40px]  text-h1Color font-[700] w-full">
+      <section className="w-full md:w-11/12 lg:w-[1106px] h-[654px] bg-bgcolor flex flex-row justify-between m-5 rounded-[34px] ">
+        <section className="flex flex-col items-start w-full md:w-full lg:w-[400px] justify-center gap-5 p-10">
+          <h1 className="md:text-[40px] lg:text-[48px] text-[38px]  text-h1Color font-[700] w-full">
             Faça seu login{/* */}
             <span className="bg-gradient-three-colors bg-clip-text text-transparent">.</span>
           </h1>
@@ -63,7 +63,7 @@ function App() {
             </button>
           </form>
         </section>
-        <img className="w-[499px] h-[654px] opacity-75 hidden md:hidden lg:block" src={img} alt="imagem" />
+        <img className="w-[499px] h-[654px] md:w-1/2 opacity-75 hidden md:block lg:block" src={img} alt="imagem" />
       </section>
     </main>
   )
